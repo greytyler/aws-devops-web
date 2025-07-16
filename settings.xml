@@ -1,0 +1,36 @@
+<settings>
+
+<servers>
+  <server>
+    <id>greydevops-greydevops-cicd</id>
+    <username>aws</username>
+    <password>${env.CODEARTIFACT_AUTH_TOKEN}</password>
+  </server>
+</servers>
+
+<profiles>
+  <profile>
+    <id>greydevops-greydevops-cicd</id>
+    <activation>
+      <activeByDefault>true</activeByDefault>
+    </activation>
+    <repositories>
+      <repository>
+        <id>greydevops-greydevops-cicd</id>
+        <url>https://greydevops-221295402889.d.codeartifact.us-east-1.amazonaws.com/maven/greydevops-cicd/</url>
+      </repository>
+    </repositories>
+  </profile>
+</profiles>
+
+<mirrors>
+  <mirror>
+    <id>greydevops-greydevops-cicd</id>
+    <name>greydevops-greydevops-cicd</name>
+    <url>https://greydevops-221295402889.d.codeartifact.us-east-1.amazonaws.com/maven/greydevops-cicd/</url>
+    <mirrorOf>*</mirrorOf>
+  </mirror>
+</mirrors>
+
+</settings>
+         

@@ -96,3 +96,5 @@
     </script>
 </body>
 </html>
+
+export CODEARTIFACT_AUTH_TOKEN=`aws codeartifact get-authorization-token --domain greydevops --domain-owner 221295402889 --region us-east-1 --query authorizationToken --output text`

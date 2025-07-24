@@ -8,8 +8,8 @@ sudo cat << EOF > /etc/httpd/conf.d/tomcat_manager.conf
   DefaultType text/html
   ProxyRequests off
   ProxyPreserveHost On
-  ProxyPass / http://localhost:8080/nextwork-web-project/
-  ProxyPassReverse / http://localhost:8080/nextwork-web-project/
+  ProxyPass / http://localhost:8080/aws-web-project/
+  ProxyPassReverse / http://localhost:8080/aws-web-project/
 </VirtualHost>
 EOF
 

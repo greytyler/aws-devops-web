@@ -53,15 +53,15 @@
 ##### Source Stage
 
 The Source stage in CodePipeline specifies the default branch to monitor for changes, ensuring the pipeline follows the correct code version. It also enables webhooks to automatically trigger the pipeline whenever new code is pushed to the linked GitHub repository.
-![Source Stage](./images/architecture-6.png)
+![Source Stage](./images/source-stage.png)
 
 ##### Build Stage
 The Build stage sets up a clean environment in CodeBuild to compile and test your application. I configured CodeBuild to run Maven on the files pulled from GitHub. The input artifact for the build stage is SourceArtifact
-![Build Stage](./images/architecture-6.png)
+![Build Stage](./images/build-stage.png)
 
 ##### Deploy Stage
 The Deploy stage uses AWS CodeDeploy to release the application to an EC2 instance. A configured deployment group ensures that build artifacts from CodeBuild are automatically deployed to the web app.
-![Deploy Stage](./images/architecture-6.png)
+![Deploy Stage](./images/deploy-stage.png)
 
 
 

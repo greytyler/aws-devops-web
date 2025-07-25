@@ -64,15 +64,12 @@ The Deploy stage uses AWS CodeDeploy to release the application to an EC2 instan
 ![Deploy Stage](./images/deploy-stage.png)
 
 
-##### Success
+##### Access live Site
 
-Since my CI/CD pipeline gets triggered by commits to the main branch, I tested my pipeline by updating the index.html with a deployment confirmation message and pushing the changes. The pipeline automatically built and deployed the updated project.
+I tested my CI/CD pipeline by updating `index.html` with a deployment confirmation message and pushing to the main branch. This triggered the pipeline, where AWS CodeBuild built and tested the app, then CodeDeploy handled deployment. 
 
-
-The moment I pushed the code change, the commit message under each stage reflects the seamless orchestration of AWS services,source triggered CodeBuild, which compiled and tested the application, then handed off to CodeDeploy for automated deployment
-
-
-Once my pipeline executed successfully, I checked by pasting the copied Public IPv4 DNS into a new browser tab and pressing Enter. I was able to view my web application, and I confirmed the new line and that code deployments was visible on the site.
+Each stage showed the commit message, reflecting smooth AWS service coordination. After successful execution, I verified the deployment by opening the app’s Public IPv4 DNS and confirmed the updated content was live.
+![Live Stage](./images/live-site.png)
 
 
 <br>
@@ -97,11 +94,12 @@ To get this project up and running on your local machine, follow these steps:
 
 <br>
 
-## Contact
-If you have any questions or comments about the my CI/CD project, please contact:
-Aubrey - [aubreytdube19@gmail.com](mailto:email@example)
+##### 📬 Contact
+📧 [Email me here](mailto:aubreytdube19@gmail.com)
+🐙 GitHub: github.com/greytyler
 
 - [LinkedIn](https://www.linkedin.com/in/natasha-ong/)
+
 
 <br>
 

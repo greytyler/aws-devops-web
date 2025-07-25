@@ -103,7 +103,5 @@ To get this project up and running on your local machine, follow these steps:
 
 <br>
 
-## Conclusion
-Thank you for exploring this project! I'll continue to build this pipeline and apply my learnings to future projects.
  
 

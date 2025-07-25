@@ -1,6 +1,7 @@
-# AWS CI/CD Pipeline: Java Web App Deployment
+# 🚀 AWS CI/CD Pipeline: Java Web App Deployment
 
-Welcome to this project combining Java web app development and AWS CI/CD tools!
+### 📌 Project Overview
+![Architecture Diagram](./images/architecture-6.png)
 
 <br>
 

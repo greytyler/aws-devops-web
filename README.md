@@ -34,17 +34,14 @@
 ***Java (Corretto 8)*** – Application Language
 
 ***Apache Maven*** – Build Tool
+<br>
 
 ### 📂 Project Structure
-AWS-DEVOPS-WEB/
-│
-├── images/                      # Project diagrams or screenshots
-│
+###### AWS-DEVOPS-WEB/
 ├── scripts/                     # Deployment lifecycle scripts
 │   ├── install_dependencies.sh
 │   ├── start_server.sh
 │   └── stop_server.sh
-│
 ├── src/                         # Java source code
    ├── appspec.yml                  # CodeDeploy configuration
    ├── buildspec.yml                # CodeBuild build instructions

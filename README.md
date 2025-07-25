@@ -74,24 +74,9 @@ Each stage showed the commit message, reflecting smooth AWS service coordination
 
 <br>
 
-✅ What I Learned
-How to configure a real-world CI/CD pipeline from scratch using AWS services.
-
-Writing and managing buildspec.yml and appspec.yml.
-
-Using AWS IAM roles for secure access between services.
-
-Automating EC2 deployments using CodeDeploy hooks.
-
-Managing app artifacts in S3 and Maven dependencies via CodeArtifact.
-
-🧪 Future Improvements
+#### 🧪 Future Improvements
 Add notifications using SNS or Slack.
-
 Use Elastic Load Balancer and Auto Scaling for high availability.
-
-Add testing stage with CodeBuild reports.
-
 Parameterize templates for multi-environment deployment (Dev, Staging, Prod).
 
 

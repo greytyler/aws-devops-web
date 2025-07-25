@@ -95,16 +95,15 @@ To get this project up and running on your local machine, follow these steps:
 <br>
 
 ##### 📬 Contact
-📧 [Email me here](mailto:aubreytdube19@gmail.com)
-🐙 GitHub: github.com/greytyler
+- 📧 [Email me here](mailto:aubreytdube19@gmail.com)
+- 🐙 GitHub: github.com/greytyler
 
-- [LinkedIn](https://www.linkedin.com/in/natasha-ong/)
+- [LinkedIn](https://www.linkedin.com/in/aubrey-t-dube-194896288/)
 
 
 <br>
 
 ## Conclusion
 Thank you for exploring this project! I'll continue to build this pipeline and apply my learnings to future projects.
-
-A big shoutout to **[NextWork](https://learn.nextwork.org/app)** for their project guide and support. [You can get started with this DevOps series project too by clicking here.](https://learn.nextwork.org/projects/aws-devops-vscode?track=high)
+ 
 

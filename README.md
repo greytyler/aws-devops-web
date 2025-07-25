@@ -74,7 +74,7 @@ Each stage showed the commit message, reflecting smooth AWS service coordination
 
 <br>
 
-##### 🧪 Future Improvements
+###### 🧪 Future Improvements
 Add notifications using SNS or Slack.
 Use Elastic Load Balancer and Auto Scaling for high availability.
 Parameterize templates for multi-environment deployment (Dev, Staging, Prod).

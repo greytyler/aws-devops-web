@@ -55,23 +55,13 @@
 The Source stage in CodePipeline specifies the default branch to monitor for changes, ensuring the pipeline follows the correct code version. It also enables webhooks to automatically trigger the pipeline whenever new code is pushed to the linked GitHub repository.
 
 
-Build
+##### Build Stage
 
-CodePipeline connects to GitHub using CodeConnection.
 
-CodeBuild compiles the Java app and runs unit tests using buildspec.yml.
 
-Build artifacts are stored in Amazon S3.
+Deploy Stage
 
-Deploy
 
-CodeDeploy pulls the latest build from S3.
-
-Deploys to EC2 using appspec.yml with hooks/scripts.
-
-EC2 instance is provisioned inside a VPC created by CloudFormation.
-
-Final output: Live website running on the deployed server.
 
 
 

@@ -1,35 +1,43 @@
-# 🚀 AWS CI/CD Pipeline: Java Web App Deployment
+# AWS CI/CD Pipeline: Java Web App Deployment
 
-### 📌 Project Overview
+# 🚀 AWS CI/CD Pipeline: GitHub → CodeBuild → CodeDeploy → EC2
+
 ![Architecture Diagram](./images/architecture-6.png)
-
 <br>
 
-## Table of Contents
-- [Introduction](#introduction)
-- [Technologies](#technologies)
-- [Setup](#setup)
-- [Contact](#contact)
-- [Conclusion](#conclusion)
+## 📌 Project Overview
+ This project demonstrates a full CI/CD pipeline on AWS, automating code deployments from source to production. It integrates GitHub for version control, CodeBuild for compiling and testing, and CodeDeploy for rolling out updates to EC2 instances within a VPC. 
+ The goal is to gain practical experience with cloud-native CI/CD using real AWS tools. 
+ While the pipeline operates behind the scenes, it significantly improves and automates the release process for the Java web application.
 
-<br>
 
-## Introduction
-This project is used for an introduction to creating and deploying a Java-based web app using AWS, especially their CI/CD tools.
 
-The deployment pipeline I'm building around the Java web app in this repository is invisible to the end-user, but makes a big impact by automating the software release processes.
 
-- I'm doing this project to learn more about CI/CD and get hands on experience in automating the flow from developing code to deployed web app. 
-- This fits into my career goals because I want to become a DevOps engineer this year!
+## 🛠️ Tech Stack
+**GitHub** – Source Code Repository
 
-<br>
+**AWS CodePipeline** – CI/CD Orchestration
 
-## Technologies
-Here’s what I’m using for this project:
+**AWS CodeBuild** – Compilation and Testing
+
+**AWS CodeDeploy** – Automated EC2 Deployment
+
+**AWS EC2** –  software development and deployment happens entirely on the cloud.
+
+**AWS S3** – Stores build artifacts
+
+**AWS CloudFormation** – Infrastructure as Code
+
+**AWS CodeArtifact** – Stores Maven dependencies (secured with policy)
+
+**Java (Corretto 8)** – Application Language
+
+**Apache Maven** – Build Tool
+
+- **VSCode**: For my IDE, I chose Visual Studio Code. It connects directly to my development EC2 instance, making it easy to edit code and manage files in the cloud.
 
 - **Amazon EC2**: I'm developing my web app on Amazon EC2 virtual servers, so that software development and deployment happens entirely on the cloud.
 - Key pairs, SSH connections, Git, Maven and Java.
-- **VSCode**: For my IDE, I chose Visual Studio Code. It connects directly to my development EC2 instance, making it easy to edit code and manage files in the cloud.
 - **GitHub**: All my web app code is stored and versioned in this GitHub repository.
 - **[COMING SOON] AWS CodeArtifact**: Once it's rolled out, CodeArtifact will store my artifacts and dependencies, which is great for high availability and speeding up my project's build process.
 - **[COMING SOON] AWS CodeBuild**: Once it's rolled out, CodeBuild will take over my build process. It'll compile the source code, run tests, and produce ready-to-deploy software packages automatically.

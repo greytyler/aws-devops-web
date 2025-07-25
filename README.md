@@ -14,28 +14,52 @@
 
 
 ## 🛠️ Tech Stack
-**GitHub** – Store and version the code
+***GitHub*** – Store and version the code
 
-**AWS CodePipeline** – CI/CD Orchestration
+***AWS CodePipeline*** – CI/CD Orchestration
 
-**AWS CodeBuild** – Compilation and Testing
+***AWS CodeBuild*** – Compilation and Testing
 
-**AWS CodeDeploy** – Automated EC2 Deployment
+***AWS CodeDeploy*** – Automated EC2 Deployment
 
-**AWS EC2** –  software development and deployment happens entirely on the cloud.
+***AWS EC2*** –  software development and deployment happens entirely on the cloud.
  - Key pairs, SSH connections, Git, Maven and Java.
 
-**AWS S3** – Stores build artifacts
+***AWS S3*** – Stores build artifacts
 
-**AWS CloudFormation** – Infrastructure as Code
+***AWS CloudFormation*** – Infrastructure as Code
 
-**AWS CodeArtifact** – Stores Maven dependencies (secured with policy)
+***AWS CodeArtifact*** – Stores Maven dependencies (secured with policy)
 
-**Java (Corretto 8)** – Application Language
+***Java (Corretto 8)*** – Application Language
 
-**Apache Maven** – Build Tool
+***Apache Maven*** – Build Tool
+
+### 📂 Project Structure
+AWS-DEVOPS-WEB/
+│
+├── images/                      # Project diagrams or screenshots
+│
+├── scripts/                     # Deployment lifecycle scripts
+│   ├── install_dependencies.sh
+│   ├── start_server.sh
+│   └── stop_server.sh
+│
+├── src/                         # Java source code
+   ├── appspec.yml                  # CodeDeploy configuration
+   ├── buildspec.yml                # CodeBuild build instructions
+   ├── pom.xml                      # Maven project config
+   ├── run-tests.sh                 # Custom test runner script
+   └── settings.xml                 # Maven settings (CodeArtifact config)
+
+
+
+
+###### 🧭 Architecture Flow
 
 <br>
+
+---
 
 ## Setup
 To get this project up and running on your local machine, follow these steps:

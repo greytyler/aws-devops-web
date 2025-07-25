@@ -39,9 +39,6 @@
 ### 📂 Project Structure
 ###### AWS-DEVOPS-WEB/
 ├── scripts/                     # Deployment lifecycle scripts
-│   ├── install_dependencies.sh
-│   ├── start_server.sh
-│   └── stop_server.sh
 ├── src/                         # Java source code
    ├── appspec.yml                  # CodeDeploy configuration
    ├── buildspec.yml                # CodeBuild build instructions

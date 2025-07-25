@@ -48,36 +48,41 @@
 
 <br>
 
-###### 🧭 Architecture Flow
+> ###### 🧭 Architecture Flow
 
-##### Source Stage
+#### Source Stage
 
 The Source stage in CodePipeline specifies the default branch to monitor for changes, ensuring the pipeline follows the correct code version. It also enables webhooks to automatically trigger the pipeline whenever new code is pushed to the linked GitHub repository.
+<br>
 ![Source Stage](./images/source-stage.png)
 
-##### Build Stage
+#### Build Stage
 The Build stage sets up a clean environment in CodeBuild to compile and test your application. I configured CodeBuild to run Maven on the files pulled from GitHub. The input artifact for the build stage is SourceArtifact
+<br>
 ![Build Stage](./images/build-stage.png)
 
-##### Deploy Stage
+#### Deploy Stage
 The Deploy stage uses AWS CodeDeploy to release the application to an EC2 instance. A configured deployment group ensures that build artifacts from CodeBuild are automatically deployed to the web app.
+<br>
 ![Deploy Stage](./images/deploy-stage.png)
 
 
-##### Access live Site
+#### Access live Site
 
 I tested my CI/CD pipeline by updating `index.html` with a deployment confirmation message and pushing to the main branch. This triggered the pipeline, where AWS CodeBuild built and tested the app, then CodeDeploy handled deployment. 
 
 Each stage showed the commit message, reflecting smooth AWS service coordination. After successful execution, I verified the deployment by opening the app’s Public IPv4 DNS and confirmed the updated content was live.
+<br>
 ![Live Stage](./images/live-site.png)
 
 
+---
 <br>
 
 ###### 🧪 Future Improvements
-Add notifications using SNS or Slack.
-Use Elastic Load Balancer and Auto Scaling for high availability.
-Parameterize templates for multi-environment deployment (Dev, Staging, Prod).
+- Add notifications using SNS or Slack.
+- Use Elastic Load Balancer and Auto Scaling for high availability.
+- Parameterize templates for multi-environment deployment (Dev, Staging, Prod).
 
 
 
@@ -102,10 +107,11 @@ To get this project up and running on your local machine, follow these steps:
 <br>
 
 ##### 📬 Contact
-- 📧 [Email me here](mailto:aubreytdube19@gmail.com)
-- 🐙 GitHub: github.com/greytyler
+- 📧 [Email Me](mailto:aubreytdube19@gmail.com)
+- 🐙 [GitHub](github.com/greytyler)
+- 💼 [LinkedIn](https://www.linkedin.com/in/aubrey-t-dube-194896288/)
+- 📝 [Visit Blog](https://greystack.hashnode.dev)
 
-- [LinkedIn](https://www.linkedin.com/in/aubrey-t-dube-194896288/)
 
 
 <br>

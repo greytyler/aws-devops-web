@@ -14,7 +14,7 @@
 
 
 ## 🛠️ Tech Stack
-**GitHub** – Source Code Repository
+**GitHub** – Store and version the code
 
 **AWS CodePipeline** – CI/CD Orchestration
 
@@ -23,6 +23,7 @@
 **AWS CodeDeploy** – Automated EC2 Deployment
 
 **AWS EC2** –  software development and deployment happens entirely on the cloud.
+ - Key pairs, SSH connections, Git, Maven and Java.
 
 **AWS S3** – Stores build artifacts
 
@@ -33,17 +34,6 @@
 **Java (Corretto 8)** – Application Language
 
 **Apache Maven** – Build Tool
-
-- **VSCode**: For my IDE, I chose Visual Studio Code. It connects directly to my development EC2 instance, making it easy to edit code and manage files in the cloud.
-
-- **Amazon EC2**: I'm developing my web app on Amazon EC2 virtual servers, so that software development and deployment happens entirely on the cloud.
-- Key pairs, SSH connections, Git, Maven and Java.
-- **GitHub**: All my web app code is stored and versioned in this GitHub repository.
-- **[COMING SOON] AWS CodeArtifact**: Once it's rolled out, CodeArtifact will store my artifacts and dependencies, which is great for high availability and speeding up my project's build process.
-- **[COMING SOON] AWS CodeBuild**: Once it's rolled out, CodeBuild will take over my build process. It'll compile the source code, run tests, and produce ready-to-deploy software packages automatically.
-- **[COMING SOON] AWS CodeDeploy**: Once it's rolled out, CodeDeploy will automate my deployment process across EC2 instances.
-- **[COMING SOON] AWS CodePipeline**: Once it's rolled out, CodePipeline will automate the entire process from GitHub to CodeDeploy, integrating build, test, and deployment steps into one efficient workflow.
-
 
 <br>
 
@@ -56,7 +46,7 @@ To get this project up and running on your local machine, follow these steps:
     ```
 2. Navigate to the project directory:
     ```bash
-    cd nextwork-web-project
+    cd aws-web-project
     ```
 3. Install dependencies:
     ```bash

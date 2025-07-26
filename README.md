@@ -34,6 +34,7 @@
 ***Java (Corretto 8)*** – Application Language
 
 ***Apache Maven*** – Build Tool
+***Apache Maven*** – Build Tool
 <br>
 
 ### 📂 Project Structure

@@ -108,7 +108,7 @@ To get this project up and running on your local machine, follow these steps:
 
 ##### 📬 Contact
 - 📧 [Email Me](mailto:aubreytdube19@gmail.com)
-- 🐙 [GitHub](github.com/)
+- 🐙 [GitHub](github.com/greytyler)
 - 💼 [LinkedIn](https://www.linkedin.com/in/aubrey-t-dube-194896288/)
 - 📝 [Visit Blog](https://greystack.hashnode.dev)
 

@@ -2,7 +2,7 @@
 
 #### Architecture
 
-![Architecture Diagram](./images/architecture-26ng)
+![Architecture Diagram](./images/architecture-7ng)
 <br>
 
 ## 📌 Project Overview

@@ -8,9 +8,10 @@ This project showcases a **simple, responsive, and minimalistic portfolio websit
 
 #### 🚀 Live URL (via CloudFront)
 
-[https://your-cloudfront-url.cloudfront.net](#)  
+[https://your-cloudfront-url.cloudfront.net](#)
+<div align="left">
 <img src="./screenshots/CF-live-site.png" alt="Live CloudFront Site" width="600">
-
+</div>
 
 ---
 
@@ -70,8 +71,11 @@ This project showcases a **simple, responsive, and minimalistic portfolio websit
   <img src="./screenshots/s3-policy+stating-public-access.png" width="45%" />
 </p>
 
+
 **Uploaded file structure in S3**
-<img src="./screenshots/s3-uploaded-files.png" alt="Screenshot" width="515">
+<div align="left">
+  <img src="./screenshots/s3-uploaded-files.png" width="515"/>
+</div>
 
 
 ---
@@ -83,10 +87,16 @@ This project showcases a **simple, responsive, and minimalistic portfolio websit
 - Created distribution and waited for deployment
 
 **CloudFront distribution settings**
-<img src="./screenshots/CF-distribution-settings.png" width="515"/>
+<div align="left">
+  <img src="./screenshots/CF-distribution-settings.png" width="515"/>
+</div>
 
 **CloudFront domain in browser**
-<img src="./screenshots/CF-distribution-settings.png" width="515"/>
+<div align="left">
+  <img src="./screenshots/CF-live-site.png" width="515"/>
+</div>
+
+
 
 ---
 

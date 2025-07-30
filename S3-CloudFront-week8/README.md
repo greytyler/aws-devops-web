@@ -20,7 +20,6 @@ This project showcases a **simple, responsive, and minimalistic portfolio websit
 
 - Responsive navy blue, grey, and white layout using pure HTML/CSS/JS
 - Highlighted sections for:
-  - DevOps
 - Deployed securely using AWS services
 
 ---

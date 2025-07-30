@@ -9,7 +9,8 @@ This project showcases a **simple, responsive, and minimalistic portfolio websit
 #### 🚀 Live URL (via CloudFront)
 
 [https://your-cloudfront-url.cloudfront.net](#)  
-📸 *Screenshot Placeholder: Live portfolio in browser*
+<img src="./screenshots/CF-live-site.png" alt="Screenshot" width="600">
+
 
 ---
 
@@ -60,6 +61,11 @@ This project showcases a **simple, responsive, and minimalistic portfolio websit
 - Enabled "Static website hosting"
 - Uploaded `index.html`, CSS, JS, and assets to the **bucket root** (not a folder)
 - Configured public read access with a bucket policy
+
+<p float="left">
+  <img src="./screenshots/s3-static-hosting-enabled.png" width="45%" />
+  <img src="./screenshots/s3-policy+stating-public-access.png" width="45%" />
+</p>
 
 📸 *Screenshot Placeholder: S3 static hosting settings*
 

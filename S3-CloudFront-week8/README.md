@@ -9,6 +9,7 @@ This project showcases a **simple, responsive, and minimalistic portfolio websit
 #### 🚀 Live URL (via CloudFront)
 
 [https://your-cloudfront-url.cloudfront.net](#)
+
 <div align="left">
 <img src="./screenshots/CF-live-site.png" alt="Live CloudFront Site" width="600">
 </div>
@@ -19,7 +20,7 @@ This project showcases a **simple, responsive, and minimalistic portfolio websit
 
 - Responsive navy blue, grey, and white layout using pure HTML/CSS/JS
 - Highlighted sections for:
-  - DevOps tools and experience
+  - DevOps
 - Deployed securely using AWS services
 
 ---
@@ -45,6 +46,7 @@ This project showcases a **simple, responsive, and minimalistic portfolio websit
 ```
 
 ### 📦 Folder Structure
+
 ```
 📁 images/
 📄 index.html
@@ -66,17 +68,17 @@ This project showcases a **simple, responsive, and minimalistic portfolio websit
 <br>
 
 **S3 static hosting settings**
+
 <p float="left">
   <img src="./screenshots/s3-static-hosting-enabled.png" width="45%" />
   <img src="./screenshots/s3-policy+stating-public-access.png" width="45%" />
 </p>
 
-
 **Uploaded file structure in S3**
+
 <div align="left">
   <img src="./screenshots/s3-uploaded-files.png" width="515"/>
 </div>
-
 
 ---
 
@@ -87,26 +89,26 @@ This project showcases a **simple, responsive, and minimalistic portfolio websit
 - Created distribution and waited for deployment
 
 **CloudFront distribution settings**
+
 <div align="left">
   <img src="./screenshots/CF-distribution-settings.png" width="515"/>
 </div>
 
 **CloudFront domain in browser**
+
 <div align="left">
   <img src="./screenshots/CF-live-site.png" width="515"/>
 </div>
-
-
 
 ---
 
 ## 🧼 Clean-Up Instructions
 
 To stay within the Free Tier:
+
 - ❌ Delete all objects from S3
 - ❌ Delete the S3 bucket
 - ❌ Delete the CloudFront distribution
-
 
 ---
 

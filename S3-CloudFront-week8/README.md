@@ -9,7 +9,7 @@ This project showcases a **simple, responsive, and minimalistic portfolio websit
 #### 🚀 Live URL (via CloudFront)
 
 [https://your-cloudfront-url.cloudfront.net](#)  
-<img src="./screenshots/CF-live-site.png" alt="Screenshot" width="600">
+<img src="./screenshots/CF-live-site.png" alt="Live CloudFront Site" width="600">
 
 
 ---
@@ -62,14 +62,17 @@ This project showcases a **simple, responsive, and minimalistic portfolio websit
 - Uploaded `index.html`, CSS, JS, and assets to the **bucket root** (not a folder)
 - Configured public read access with a bucket policy
 
+<br>
+
+**S3 static hosting settings**
 <p float="left">
   <img src="./screenshots/s3-static-hosting-enabled.png" width="45%" />
   <img src="./screenshots/s3-policy+stating-public-access.png" width="45%" />
 </p>
 
-📸 *Screenshot Placeholder: S3 static hosting settings*
+**Uploaded file structure in S3**
+<img src="./screenshots/s3-uploaded-files.png" alt="Screenshot" width="515">
 
-📸 *Screenshot Placeholder: Uploaded file structure in S3*
 
 ---
 
@@ -79,9 +82,11 @@ This project showcases a **simple, responsive, and minimalistic portfolio websit
 - Set viewer protocol to **redirect HTTP to HTTPS**
 - Created distribution and waited for deployment
 
-📸 *Screenshot Placeholder: CloudFront distribution settings*
+**CloudFront distribution settings**
+<img src="./screenshots/CF-distribution-settings.png" width="515"/>
 
-📸 *Screenshot Placeholder: CloudFront domain in browser*
+**CloudFront domain in browser**
+<img src="./screenshots/CF-distribution-settings.png" width="515"/>
 
 ---
 

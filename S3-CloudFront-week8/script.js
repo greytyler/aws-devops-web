@@ -1,1 +1,0 @@
-console.log("Welcome to Aubrey Dube's Portfolio");

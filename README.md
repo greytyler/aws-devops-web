@@ -1,4 +1,4 @@
-> ## AWS CI/CD Pipeline: Java Web App Deployment
+> ## AWS Devops CI/CD Pipeline: Java Web App Deployment
 
 #### Architecture
 

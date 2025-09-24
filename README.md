@@ -1,4 +1,4 @@
-> ## AWS CI/CD Devops Pipeline: Java Web App Deployment end to end
+> ## AWS CI/CD Devops Pipeline: Java Web App Deployment cicd
 
 #### Architecture
 

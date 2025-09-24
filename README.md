@@ -6,7 +6,7 @@
 <br>
 
 ## 📌 Project Overview
- This project demonstrates a full CI/CD pipeline on AWS, automating code deployments from source to production. It integrates GitHub for version control, CodeBuild for compiling and testing, and CodeDeploy for rolling out updates to EC2 instances within a VPC. 
+ This project demonstrates a full end-to-end CI/CD pipeline on AWS, automating code deployments from source to production. It integrates GitHub for version control, CodeBuild for compiling and testing, and CodeDeploy for rolling out updates to EC2 instances within a VPC. 
  The goal is to gain practical experience with cloud-native CI/CD using real AWS tools. 
  While the pipeline operates behind the scenes, it significantly improves and automates the release process for the Java web application.
 

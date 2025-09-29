@@ -5,3 +5,4 @@ sudo systemctl start httpd.service
 sudo systemctl enable httpd.service
 sudo systemctl disable httpd.service
 sudo systemctl end tomcat.service
+sudo systemctl disable tomcat.service

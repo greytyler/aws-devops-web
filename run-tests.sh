@@ -21,4 +21,4 @@ echo "Test 3: Simple validation test..."
 echo "✅ PASS: This test always passes"
 
 echo "==== ALL TESTS PASSED ===="
-exit 0
+exit 1

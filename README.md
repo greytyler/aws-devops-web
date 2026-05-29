@@ -48,7 +48,7 @@
 
 <br>
 
-###### 🧭 Architecture Flow
+###### 🧭 Architectural Flow
 
 #### Source Stage
 

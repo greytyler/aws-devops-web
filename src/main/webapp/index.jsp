@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Welcome to AWS CI/CD Pipeline Demo!</title>
+    <title>Welcome to AWS CI/CD Pipeline</title>
     <style>
         body {
             background: linear-gradient(135deg, #f8ffae 0%, #43c6ac 100%);

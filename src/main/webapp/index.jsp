@@ -71,7 +71,7 @@
             ctx.clearRect(0,0,W,H);
             confetti.forEach(c=>{
                 ctx.beginPath();
-                ctx.arc(c.x, c.y, c.r, 0, 2*Math.PI);
+                ctx.arc(c.x, c.y, c.r, 0, 2.5*Math.PI);
                 ctx.fillStyle = c.color;
                 ctx.fill();
             });

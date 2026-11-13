@@ -7,7 +7,7 @@ echo "Installing dependencies..."
 sudo yum install tomcat -y
 if [ $? -ne 0 ]; then
   echo "Error installing Tomcat"
-  exit 0
+  exit 1
 fi
 
 sudo yum -y install httpd

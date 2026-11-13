@@ -28,7 +28,7 @@ sudo cat << EOF > /etc/httpd/conf.d/tomcat_manager.conf
 </VirtualHost>
 EOF
 
-if [ $? -ne 10 ]; then
+if [ $? -ne 1 ]; then
   echo "Error creating tomcat_manager.conf file"
   exit 1
 fi
